@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width = device-width, initial-scale = 1">
+<title>Tweets de la Semana</title>
+ 
+<!-- Use downloaded version of Bootstrap. You can style everything here to your liking. -->
+<!-- Download the Bootstrap source code here
+http://getbootstrap.com/getting-started/ -->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+ 
+<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<style type="text/css">
+body {
+  font-size: 62.5%;
+  font-family: arial, sans-serif;
+}
+#nttLogo{
+  height: 100px;
+  width: 100px;
+}
+#websiteTitle{
+  font-size: 10em;
+  vertical-align: middle;
+  font-family: 'Pacifico', cursive;
+  padding-left: 15px;
+  color: #191970;
+}
+#websiteSlogan{
+  font-size: 5.4em;
+}
+/* Carousel Styling */
+.slide1{
+  background-image: url('twitter.png');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.slide2{
+  background-image: url('twitter.png');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.slide3{
+  background-image: url('twitter.png');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.slide4{
+  background-image: url('twitter.png');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.carousel-caption h1{
+  font-size: 5.4em;
+  font-family: 'Pacifico', cursive;
+  padding-bottom: .4em;
+}
+.carousel-caption p{
+  font-size: 2em;
+}
+</style>
+</head>
+<body>
+
+ <span id="websiteTitle">Tweets de la Semana</span>
+<!-- Carousel -->
+<!-- Surround everything with a div with the class carousel slide -->
+<div id="theCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+ 
+  <!-- Define how many slides to put in the carousel -->
+  <ol class="carousel-indicators">
+    <li data-target="#theCarousel" data-slide-to="0" class="active"> </li >
+    <li data-target="#theCarousel" data-slide-to="1"> </li>
+    <li data-target="#theCarousel" data-slide-to="2"> </li>
+    <li data-target="#theCarousel" data-slide-to="3"> </li>
+  </ol >
+ 
+  <!-- Define the text to place over the image -->
+  <div class="carousel-inner">
+    <div class="item active" >
+    <div class ="slide1"></div>
+    <div class="carousel-caption">
+    <a href="https://twitter.com/asandoval110"> <img class="media-object" src="https://pbs.twimg.com/profile_images/564582400530083840/m0LgfemJ_normal.jpeg" alt="..."></a>
+    
+      <h1>"Es de buena práctica usar dos espacios para sangrar el código en vez de usar la tecla tab. #WebDev @Uniandes"</h1>
+    <p>Andrés Sandoval @Asandoval110</p>
+     <div class="btn-group btn-group-md" role="group">
+        <button type="button" class="btn btn-danger">-1</button>
+        <button type="button" class="btn btn-default">0</button>
+        <button type="button" class="btn btn-info">1</button>
+        <button type="button" class="btn btn-info">2</button>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="item">
+  <div class="slide2"></div>
+  <div class="carousel-caption">
+    <a href="#"> <img class="media-object" src="https://pbs.twimg.com/profile_images/592394295639932928/aWqOHP11_normal.jpg" alt="..."></a>
+    
+      <h1>""Meta tags may seem useless since they don't display anything, but they can help search engines to rank your sites better. #WebDev @Uniandes""</h1>
+    <p>Juan Camilo Bages @jcbages</p>
+     <div class="btn-group btn-group-md" role="group">
+        <button type="button" class="btn btn-danger">-1</button>
+        <button type="button" class="btn btn-default">0</button>
+        <button type="button" class="btn btn-info">1</button>
+        <button type="button" class="btn btn-info">2</button>
+      </div>
+   
+  </div>
+  </div>
+
+  <div class="item">
+  <div class="slide3"></div>
+  <div class="carousel-caption">
+  
+    <a href="https://twitter.com/@s_martinezGD"> <img class="media-object" src="https://pbs.twimg.com/profile_images/875334439659876352/iNaTXD7T_normal.jpg" alt="..."></a>
+    
+      <h1>"Hay que pensar en las personas con discapacidad visual. Usa el atributo alt en imágenes.
+      < img alt="HTML5 para todos"/> #WebDev @Uniandes"</h1>
+    <p>Sebastian M @s_martinezGD</p>
+     <div class="btn-group btn-group-md" role="group">
+        <button type="button" class="btn btn-danger">-1</button>
+        <button type="button" class="btn btn-default">0</button>
+        <button type="button" class="btn btn-info">1</button>
+        <button type="button" class="btn btn-info">2</button>
+      </div>
+
+  </div>
+  </div>
+
+  <div class="item">
+  <div class="slide4"></div>
+  <div class="carousel-caption">
+    <a href="https://twitter.com/@GyroBautista"> <img class="media-object" src="https://pbs.twimg.com/profile_images/645453013725900800/MzYoR43a_normal.jpg" alt="..."></a>
+
+    <h1>""#WebDev @Uniandes keep ur filenames, paths, elements Ids &amp; classes in lowers &amp; separating words w/ dashes (-) to avoid linking problems."</h1>
+    <p>Jairo E. Bautista M @GyroBautista</p>
+     <div class="btn-group btn-group-md" role="group">
+        <button type="button" class="btn btn-danger">-1</button>
+        <button type="button" class="btn btn-default">0</button>
+        <button type="button" class="btn btn-info">1</button>
+        <button type="button" class="btn btn-info">2</button>
+      </div>
+
+   
+  </div>
+  </div>
+  </div>
+ 
+  <!-- Set the actions to take when the arrows are clicked -->
+  <a class="left carousel-control" href="#theCarousel" data-slide="prev">
+  <span class="glyphicon glyphicon-chevron-left"> </span>
+  </a>
+  <a class="right carousel-control" href="#theCarousel" data-slide="next">
+  <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+  </div>
+ 
+ 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+ 
+<!-- Use downloaded version of Bootstrap -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
